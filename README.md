@@ -18,7 +18,7 @@ COPY --from=ghcr.io/quantcdn/backend-init:latest /usr/local/bin/backend-init /us
 This can be run directly from the docker image:
 
 ```sh
-docker run --rm ghcr.io/quantcdn/backend-init:latest backend-init --version
+docker run --rm ghcr.io/quantcdn/backend-init:latest --help
 ```
 
 ## Usage
